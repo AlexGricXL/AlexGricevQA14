@@ -1,6 +1,8 @@
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
@@ -41,7 +43,7 @@ public class FirstClass {
 
   private boolean isAlertPresent() {
     try {
-      driver.switchTo().alert().;
+      driver.switchTo().alert();
       return true;
     } catch (NoAlertPresentException e) {
       return false;
