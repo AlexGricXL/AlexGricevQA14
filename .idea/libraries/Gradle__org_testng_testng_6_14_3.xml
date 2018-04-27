@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.testng:testng:6.14.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/sampleTest/Could not resolve org.testng:testng:6.14.3." />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
